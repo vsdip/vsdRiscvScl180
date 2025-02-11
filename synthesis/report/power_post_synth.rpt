@@ -1,0 +1,67 @@
+Loading db file '/home/dhanvanti/scl_pdk_v2/iolib/cio250/synopsys/2002.05/models/tsl18cio250_typ.db'
+Loading db file '/home/dhanvanti/scl_pdk_v2/stdlib/fs120/liberty/lib_flow_ff/tsl18fs120_scl_ff.db'
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: There is no defined clock in the design. (PWR-80)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+Warning: Design has unannotated black box outputs. (PWR-428)
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : vsdcaravel
+Version: T-2022.03-SP5-6
+Date   : Tue Feb 11 08:45:43 2025
+****************************************
+
+
+Library(s) Used:
+
+    tsl18fs120_scl_ff (File: /home/dhanvanti/scl_pdk_v2/stdlib/fs120/liberty/lib_flow_ff/tsl18fs120_scl_ff.db)
+    tsl18cio250_typ (File: /home/dhanvanti/scl_pdk_v2/iolib/cio250/synopsys/2002.05/models/tsl18cio250_typ.db)
+
+
+Operating Conditions: tsl18fs120_scl_ff   Library: tsl18fs120_scl_ff
+Wire Load Model Mode: top
+
+Design        Wire Load Model            Library
+------------------------------------------------
+vsdcaravel             1000000           tsl18fs120_scl_ff
+
+
+Global Operating Voltage = 1.98 
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+Attributes
+----------
+i - Including register clock pin internal power
+
+
+  Cell Internal Power  =  39.2345 mW   (54%)
+  Net Switching Power  =  33.4671 mW   (46%)
+                         ---------
+Total Dynamic Power    =  72.7016 mW  (100%)
+
+Cell Leakage Power     =   1.5621 uW
+
+Information: report_power power group summary does not include estimated clock tree power. (PWR-789)
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             3.2232        7.3891e-03        4.1871e+05            3.2310  (   4.44%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.2297           62.7200            0.2297  (   0.32%)
+clock_network      0.0000            0.0000            0.0000            0.0000  (   0.00%)  i
+register           0.0000            0.0000            0.0000            0.0000  (   0.00%)
+sequential        33.9079        9.0469e-02        7.1949e+05           33.9993  (  46.77%)
+combinational      2.1044           33.1373        4.2385e+05           35.2419  (  48.47%)
+--------------------------------------------------------------------------------------------------
+Total             39.2355 mW        33.4648 mW     1.5621e+06 pW        72.7018 mW
+1

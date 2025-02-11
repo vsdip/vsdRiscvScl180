@@ -1,0 +1,367 @@
+GNU gdb (GDB) Red Hat Enterprise Linux 7.6.1-120.el7
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-redhat-linux-gnu".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Attaching to process 8086
+Reading symbols from /usr/synopsys/syn/T-2022.03-SP5-6/linux64/syn/bin/common_shell_exec...(no debugging symbols found)...done.
+Reading symbols from /usr/synopsys/syn/T-2022.03-SP5-6/linux64/syn/bin/../shlib/libtbb.so.12...done.
+Loaded symbols for /usr/synopsys/syn/T-2022.03-SP5-6/linux64/syn/bin/../shlib/libtbb.so.12
+Reading symbols from /lib64/libXft.so.2...Reading symbols from /lib64/libXft.so.2...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libXft.so.2
+Reading symbols from /lib64/libXss.so.1...Reading symbols from /lib64/libXss.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libXss.so.1
+Reading symbols from /usr/synopsys/syn/T-2022.03-SP5-6/linux64/syn/bin/../shlib/libQt5WebChannel.so.5...(no debugging symbols found)...done.
+Loaded symbols for /usr/synopsys/syn/T-2022.03-SP5-6/linux64/syn/bin/../shlib/libQt5WebChannel.so.5
+Reading symbols from /usr/synopsys/syn/T-2022.03-SP5-6/linux64/syn/bin/../shlib/libQt5WebSockets.so.5...(no debugging symbols found)...done.
+Loaded symbols for /usr/synopsys/syn/T-2022.03-SP5-6/linux64/syn/bin/../shlib/libQt5WebSockets.so.5
+Reading symbols from /usr/synopsys/syn/T-2022.03-SP5-6/linux64/syn/bin/../shlib/libQt5WebKitWidgets.so.5...(no debugging symbols found)...done.
+Loaded symbols for /usr/synopsys/syn/T-2022.03-SP5-6/linux64/syn/bin/../shlib/libQt5WebKitWidgets.so.5
+Reading symbols from /usr/synopsys/syn/T-2022.03-SP5-6/linux64/syn/bin/../shlib/libQt5WebKit.so.5...(no debugging symbols found)...done.
+Loaded symbols for /usr/synopsys/syn/T-2022.03-SP5-6/linux64/syn/bin/../shlib/libQt5WebKit.so.5
+Reading symbols from /usr/synopsys/syn/T-2022.03-SP5-6/linux64/syn/bin/../shlib/libz.so.1...(no debugging symbols found)...done.
+Loaded symbols for /usr/synopsys/syn/T-2022.03-SP5-6/linux64/syn/bin/../shlib/libz.so.1
+Reading symbols from /usr/synopsys/syn/T-2022.03-SP5-6/linux64/syn/bin/../shlib/libfontconfig.so.1...Reading symbols from /usr/synopsys/syn/T-2022.03-SP5-6/linux64/syn/bin/../shlib/libfontconfig.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /usr/synopsys/syn/T-2022.03-SP5-6/linux64/syn/bin/../shlib/libfontconfig.so.1
+Reading symbols from /lib64/libutil.so.1...(no debugging symbols found)...done.
+Loaded symbols for /lib64/libutil.so.1
+Reading symbols from /lib64/libuuid.so.1...Reading symbols from /lib64/libuuid.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libuuid.so.1
+Reading symbols from /usr/synopsys/syn/T-2022.03-SP5-6/linux64/syn/bin/../shlib/libprotobuf.so.19...done.
+Loaded symbols for /usr/synopsys/syn/T-2022.03-SP5-6/linux64/syn/bin/../shlib/libprotobuf.so.19
+Reading symbols from /usr/synopsys/syn/T-2022.03-SP5-6/linux64/syn/bin/../shlib/liboasis-O.so...(no debugging symbols found)...done.
+Loaded symbols for /usr/synopsys/syn/T-2022.03-SP5-6/linux64/syn/bin/../shlib/liboasis-O.so
+Reading symbols from /usr/synopsys/syn/T-2022.03-SP5-6/linux64/syn/bin/../shlib/libgomp.so.1...done.
+Loaded symbols for /usr/synopsys/syn/T-2022.03-SP5-6/linux64/syn/bin/../shlib/libgomp.so.1
+Reading symbols from /lib64/libpthread.so.0...(no debugging symbols found)...done.
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib64/libthread_db.so.1".
+Loaded symbols for /lib64/libpthread.so.0
+Reading symbols from /lib64/libdl.so.2...(no debugging symbols found)...done.
+Loaded symbols for /lib64/libdl.so.2
+Reading symbols from /usr/synopsys/syn/T-2022.03-SP5-6/linux64/syn/bin/../shlib/libQt5Widgets.so.5...(no debugging symbols found)...done.
+Loaded symbols for /usr/synopsys/syn/T-2022.03-SP5-6/linux64/syn/bin/../shlib/libQt5Widgets.so.5
+Reading symbols from /usr/synopsys/syn/T-2022.03-SP5-6/linux64/syn/bin/../shlib/libQt5Svg.so.5...(no debugging symbols found)...done.
+Loaded symbols for /usr/synopsys/syn/T-2022.03-SP5-6/linux64/syn/bin/../shlib/libQt5Svg.so.5
+Reading symbols from /usr/synopsys/syn/T-2022.03-SP5-6/linux64/syn/bin/../shlib/libQt5Gui.so.5...(no debugging symbols found)...done.
+Loaded symbols for /usr/synopsys/syn/T-2022.03-SP5-6/linux64/syn/bin/../shlib/libQt5Gui.so.5
+Reading symbols from /usr/synopsys/syn/T-2022.03-SP5-6/linux64/syn/bin/../shlib/libQt5X11Extras.so.5...(no debugging symbols found)...done.
+Loaded symbols for /usr/synopsys/syn/T-2022.03-SP5-6/linux64/syn/bin/../shlib/libQt5X11Extras.so.5
+Reading symbols from /usr/synopsys/syn/T-2022.03-SP5-6/linux64/syn/bin/../shlib/libQt5PrintSupport.so.5...(no debugging symbols found)...done.
+Loaded symbols for /usr/synopsys/syn/T-2022.03-SP5-6/linux64/syn/bin/../shlib/libQt5PrintSupport.so.5
+Reading symbols from /usr/synopsys/syn/T-2022.03-SP5-6/linux64/syn/bin/../shlib/libQt5Network.so.5...(no debugging symbols found)...done.
+Loaded symbols for /usr/synopsys/syn/T-2022.03-SP5-6/linux64/syn/bin/../shlib/libQt5Network.so.5
+Reading symbols from /usr/synopsys/syn/T-2022.03-SP5-6/linux64/syn/bin/../shlib/libQt5Xml.so.5...(no debugging symbols found)...done.
+Loaded symbols for /usr/synopsys/syn/T-2022.03-SP5-6/linux64/syn/bin/../shlib/libQt5Xml.so.5
+Reading symbols from /usr/synopsys/syn/T-2022.03-SP5-6/linux64/syn/bin/../shlib/libQt5Core.so.5...(no debugging symbols found)...done.
+Loaded symbols for /usr/synopsys/syn/T-2022.03-SP5-6/linux64/syn/bin/../shlib/libQt5Core.so.5
+Reading symbols from /usr/synopsys/syn/T-2022.03-SP5-6/linux64/syn/bin/../shlib/libQt5Sql.so.5...(no debugging symbols found)...done.
+Loaded symbols for /usr/synopsys/syn/T-2022.03-SP5-6/linux64/syn/bin/../shlib/libQt5Sql.so.5
+Reading symbols from /lib64/libX11.so.6...Reading symbols from /lib64/libX11.so.6...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libX11.so.6
+Reading symbols from /lib64/libxcb.so.1...Reading symbols from /lib64/libxcb.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libxcb.so.1
+Reading symbols from /lib64/librt.so.1...(no debugging symbols found)...done.
+Loaded symbols for /lib64/librt.so.1
+Reading symbols from /lib64/libXext.so.6...Reading symbols from /lib64/libXext.so.6...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libXext.so.6
+Reading symbols from /lib64/libXi.so.6...Reading symbols from /lib64/libXi.so.6...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libXi.so.6
+Reading symbols from /lib64/libXrender.so.1...Reading symbols from /lib64/libXrender.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libXrender.so.1
+Reading symbols from /lib64/libXrandr.so.2...Reading symbols from /lib64/libXrandr.so.2...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libXrandr.so.2
+Reading symbols from /usr/synopsys/syn/T-2022.03-SP5-6/linux64/syn/bin/../shlib/libfreetype.so.6...Reading symbols from /usr/synopsys/syn/T-2022.03-SP5-6/linux64/syn/bin/../shlib/libfreetype.so.6...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /usr/synopsys/syn/T-2022.03-SP5-6/linux64/syn/bin/../shlib/libfreetype.so.6
+Reading symbols from /lib64/libSM.so.6...Reading symbols from /lib64/libSM.so.6...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libSM.so.6
+Reading symbols from /lib64/libICE.so.6...Reading symbols from /lib64/libICE.so.6...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libICE.so.6
+Reading symbols from /lib64/libpng12.so.0...Reading symbols from /lib64/libpng12.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libpng12.so.0
+Reading symbols from /lib64/libm.so.6...(no debugging symbols found)...done.
+Loaded symbols for /lib64/libm.so.6
+Reading symbols from /lib64/libc.so.6...(no debugging symbols found)...done.
+Loaded symbols for /lib64/libc.so.6
+Reading symbols from /lib64/ld-linux-x86-64.so.2...(no debugging symbols found)...done.
+Loaded symbols for /lib64/ld-linux-x86-64.so.2
+Reading symbols from /usr/synopsys/syn/T-2022.03-SP5-6/linux64/syn/bin/../shlib/libstdc++.so.6...done.
+Loaded symbols for /usr/synopsys/syn/T-2022.03-SP5-6/linux64/syn/bin/../shlib/libstdc++.so.6
+Reading symbols from /usr/synopsys/syn/T-2022.03-SP5-6/linux64/syn/bin/../shlib/libgcc_s.so.1...done.
+Loaded symbols for /usr/synopsys/syn/T-2022.03-SP5-6/linux64/syn/bin/../shlib/libgcc_s.so.1
+Reading symbols from /usr/synopsys/syn/T-2022.03-SP5-6/linux64/syn/bin/../shlib/libQt5Qml.so.5...(no debugging symbols found)...done.
+Loaded symbols for /usr/synopsys/syn/T-2022.03-SP5-6/linux64/syn/bin/../shlib/libQt5Qml.so.5
+Reading symbols from /usr/synopsys/syn/T-2022.03-SP5-6/linux64/syn/bin/../shlib/libxslt.so.1...Reading symbols from /usr/synopsys/syn/T-2022.03-SP5-6/linux64/syn/bin/../shlib/libxslt.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /usr/synopsys/syn/T-2022.03-SP5-6/linux64/syn/bin/../shlib/libxslt.so.1
+Reading symbols from /usr/synopsys/syn/T-2022.03-SP5-6/linux64/syn/bin/../shlib/libxml2.so.2...Reading symbols from /usr/synopsys/syn/T-2022.03-SP5-6/linux64/syn/bin/../shlib/libxml2.so.2...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /usr/synopsys/syn/T-2022.03-SP5-6/linux64/syn/bin/../shlib/libxml2.so.2
+Reading symbols from /lib64/libsqlite3.so.0...Reading symbols from /lib64/libsqlite3.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libsqlite3.so.0
+Reading symbols from /usr/synopsys/syn/T-2022.03-SP5-6/linux64/syn/bin/../shlib/libicui18n.so.50...Reading symbols from /usr/synopsys/syn/T-2022.03-SP5-6/linux64/syn/bin/../shlib/libicui18n.so.50...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /usr/synopsys/syn/T-2022.03-SP5-6/linux64/syn/bin/../shlib/libicui18n.so.50
+Reading symbols from /usr/synopsys/syn/T-2022.03-SP5-6/linux64/syn/bin/../shlib/libicuuc.so.50...Reading symbols from /usr/synopsys/syn/T-2022.03-SP5-6/linux64/syn/bin/../shlib/libicuuc.so.50...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /usr/synopsys/syn/T-2022.03-SP5-6/linux64/syn/bin/../shlib/libicuuc.so.50
+Reading symbols from /usr/synopsys/syn/T-2022.03-SP5-6/linux64/syn/bin/../shlib/libicudata.so.50...Reading symbols from /usr/synopsys/syn/T-2022.03-SP5-6/linux64/syn/bin/../shlib/libicudata.so.50...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /usr/synopsys/syn/T-2022.03-SP5-6/linux64/syn/bin/../shlib/libicudata.so.50
+Reading symbols from /usr/synopsys/syn/T-2022.03-SP5-6/linux64/syn/bin/../shlib/libQt5Sensors.so.5...(no debugging symbols found)...done.
+Loaded symbols for /usr/synopsys/syn/T-2022.03-SP5-6/linux64/syn/bin/../shlib/libQt5Sensors.so.5
+Reading symbols from /usr/synopsys/syn/T-2022.03-SP5-6/linux64/syn/bin/../shlib/libQt5Positioning.so.5...(no debugging symbols found)...done.
+Loaded symbols for /usr/synopsys/syn/T-2022.03-SP5-6/linux64/syn/bin/../shlib/libQt5Positioning.so.5
+Reading symbols from /usr/synopsys/syn/T-2022.03-SP5-6/linux64/syn/bin/../shlib/libQt5MultimediaWidgets.so.5...(no debugging symbols found)...done.
+Loaded symbols for /usr/synopsys/syn/T-2022.03-SP5-6/linux64/syn/bin/../shlib/libQt5MultimediaWidgets.so.5
+Reading symbols from /usr/synopsys/syn/T-2022.03-SP5-6/linux64/syn/bin/../shlib/libQt5Multimedia.so.5...(no debugging symbols found)...done.
+Loaded symbols for /usr/synopsys/syn/T-2022.03-SP5-6/linux64/syn/bin/../shlib/libQt5Multimedia.so.5
+Reading symbols from /usr/synopsys/syn/T-2022.03-SP5-6/linux64/syn/bin/../shlib/libQt5OpenGL.so.5...(no debugging symbols found)...done.
+Loaded symbols for /usr/synopsys/syn/T-2022.03-SP5-6/linux64/syn/bin/../shlib/libQt5OpenGL.so.5
+Reading symbols from /lib64/libGL.so.1...Reading symbols from /lib64/libGL.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libGL.so.1
+Reading symbols from /lib64/libXcomposite.so.1...Reading symbols from /lib64/libXcomposite.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libXcomposite.so.1
+Reading symbols from /usr/synopsys/syn/T-2022.03-SP5-6/linux64/syn/bin/../shlib/libjpeg.so.62...Reading symbols from /usr/synopsys/syn/T-2022.03-SP5-6/linux64/syn/bin/../shlib/libjpeg.so.62...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /usr/synopsys/syn/T-2022.03-SP5-6/linux64/syn/bin/../shlib/libjpeg.so.62
+Reading symbols from /usr/synopsys/syn/T-2022.03-SP5-6/linux64/syn/bin/../shlib/libpng15.so.15...Reading symbols from /usr/synopsys/syn/T-2022.03-SP5-6/linux64/syn/bin/../shlib/libpng15.so.15...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /usr/synopsys/syn/T-2022.03-SP5-6/linux64/syn/bin/../shlib/libpng15.so.15
+Reading symbols from /usr/synopsys/syn/T-2022.03-SP5-6/linux64/syn/bin/../shlib/libwebp.so.4...Reading symbols from /usr/synopsys/syn/T-2022.03-SP5-6/linux64/syn/bin/../shlib/libwebp.so.4...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /usr/synopsys/syn/T-2022.03-SP5-6/linux64/syn/bin/../shlib/libwebp.so.4
+Reading symbols from /usr/synopsys/syn/T-2022.03-SP5-6/linux64/syn/bin/../shlib/libQt5Quick.so.5...(no debugging symbols found)...done.
+Loaded symbols for /usr/synopsys/syn/T-2022.03-SP5-6/linux64/syn/bin/../shlib/libQt5Quick.so.5
+Reading symbols from /usr/synopsys/syn/T-2022.03-SP5-6/linux64/syn/bin/../shlib/libQt5QmlModels.so.5...(no debugging symbols found)...done.
+Loaded symbols for /usr/synopsys/syn/T-2022.03-SP5-6/linux64/syn/bin/../shlib/libQt5QmlModels.so.5
+Reading symbols from /lib64/libexpat.so.1...Reading symbols from /lib64/libexpat.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libexpat.so.1
+Reading symbols from /usr/synopsys/syn/T-2022.03-SP5-6/linux64/syn/bin/../shlib/libharfbuzz.so.0...Reading symbols from /usr/synopsys/syn/T-2022.03-SP5-6/linux64/syn/bin/../shlib/libharfbuzz.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /usr/synopsys/syn/T-2022.03-SP5-6/linux64/syn/bin/../shlib/libharfbuzz.so.0
+Reading symbols from /lib64/libgssapi_krb5.so.2...Reading symbols from /lib64/libgssapi_krb5.so.2...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libgssapi_krb5.so.2
+Reading symbols from /lib64/libXau.so.6...Reading symbols from /lib64/libXau.so.6...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libXau.so.6
+Reading symbols from /lib64/libbz2.so.1...Reading symbols from /lib64/libbz2.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libbz2.so.1
+Reading symbols from /lib64/liblzma.so.5...Reading symbols from /lib64/liblzma.so.5...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/liblzma.so.5
+Reading symbols from /lib64/libpulse-mainloop-glib.so.0...Reading symbols from /lib64/libpulse-mainloop-glib.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libpulse-mainloop-glib.so.0
+Reading symbols from /lib64/libpulse.so.0...Reading symbols from /lib64/libpulse.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libpulse.so.0
+Reading symbols from /lib64/libglib-2.0.so.0...Reading symbols from /lib64/libglib-2.0.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libglib-2.0.so.0
+Reading symbols from /usr/synopsys/syn/T-2022.03-SP5-6/linux64/syn/bin/../shlib/libGLX.so.0...Reading symbols from /usr/synopsys/syn/T-2022.03-SP5-6/linux64/syn/bin/../shlib/libGLX.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /usr/synopsys/syn/T-2022.03-SP5-6/linux64/syn/bin/../shlib/libGLX.so.0
+Reading symbols from /usr/synopsys/syn/T-2022.03-SP5-6/linux64/syn/bin/../shlib/libGLdispatch.so.0...Reading symbols from /usr/synopsys/syn/T-2022.03-SP5-6/linux64/syn/bin/../shlib/libGLdispatch.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /usr/synopsys/syn/T-2022.03-SP5-6/linux64/syn/bin/../shlib/libGLdispatch.so.0
+Reading symbols from /lib64/libgraphite2.so.3...Reading symbols from /lib64/libgraphite2.so.3...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libgraphite2.so.3
+Reading symbols from /lib64/libkrb5.so.3...Reading symbols from /lib64/libkrb5.so.3...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libkrb5.so.3
+Reading symbols from /lib64/libk5crypto.so.3...Reading symbols from /lib64/libk5crypto.so.3...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libk5crypto.so.3
+Reading symbols from /lib64/libcom_err.so.2...Reading symbols from /lib64/libcom_err.so.2...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libcom_err.so.2
+Reading symbols from /lib64/libkrb5support.so.0...Reading symbols from /lib64/libkrb5support.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libkrb5support.so.0
+Reading symbols from /lib64/libkeyutils.so.1...Reading symbols from /lib64/libkeyutils.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libkeyutils.so.1
+Reading symbols from /lib64/libresolv.so.2...(no debugging symbols found)...done.
+Loaded symbols for /lib64/libresolv.so.2
+Reading symbols from /usr/lib64/pulseaudio/libpulsecommon-10.0.so...Reading symbols from /usr/lib64/pulseaudio/libpulsecommon-10.0.so...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /usr/lib64/pulseaudio/libpulsecommon-10.0.so
+Reading symbols from /lib64/libcap.so.2...Reading symbols from /lib64/libcap.so.2...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libcap.so.2
+Reading symbols from /lib64/libdbus-1.so.3...Reading symbols from /lib64/libdbus-1.so.3...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libdbus-1.so.3
+Reading symbols from /lib64/libpcre.so.1...Reading symbols from /lib64/libpcre.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libpcre.so.1
+Reading symbols from /lib64/libselinux.so.1...Reading symbols from /lib64/libselinux.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libselinux.so.1
+Reading symbols from /lib64/libX11-xcb.so.1...Reading symbols from /lib64/libX11-xcb.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libX11-xcb.so.1
+Reading symbols from /lib64/libXtst.so.6...Reading symbols from /lib64/libXtst.so.6...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libXtst.so.6
+Reading symbols from /lib64/libsystemd.so.0...Reading symbols from /lib64/libsystemd.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libsystemd.so.0
+Reading symbols from /lib64/libwrap.so.0...Reading symbols from /lib64/libwrap.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libwrap.so.0
+Reading symbols from /lib64/libsndfile.so.1...Reading symbols from /lib64/libsndfile.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libsndfile.so.1
+Reading symbols from /lib64/libasyncns.so.0...Reading symbols from /lib64/libasyncns.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libasyncns.so.0
+Reading symbols from /lib64/libattr.so.1...Reading symbols from /lib64/libattr.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libattr.so.1
+Reading symbols from /lib64/liblz4.so.1...Reading symbols from /lib64/liblz4.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/liblz4.so.1
+Reading symbols from /lib64/libgcrypt.so.11...Reading symbols from /lib64/libgcrypt.so.11...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libgcrypt.so.11
+Reading symbols from /lib64/libgpg-error.so.0...Reading symbols from /lib64/libgpg-error.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libgpg-error.so.0
+Reading symbols from /lib64/libdw.so.1...Reading symbols from /lib64/libdw.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libdw.so.1
+Reading symbols from /lib64/libnsl.so.1...(no debugging symbols found)...done.
+Loaded symbols for /lib64/libnsl.so.1
+Reading symbols from /lib64/libgsm.so.1...Reading symbols from /lib64/libgsm.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libgsm.so.1
+Reading symbols from /lib64/libFLAC.so.8...Reading symbols from /lib64/libFLAC.so.8...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libFLAC.so.8
+Reading symbols from /lib64/libvorbisenc.so.2...Reading symbols from /lib64/libvorbisenc.so.2...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libvorbisenc.so.2
+Reading symbols from /lib64/libvorbis.so.0...Reading symbols from /lib64/libvorbis.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libvorbis.so.0
+Reading symbols from /lib64/libogg.so.0...Reading symbols from /lib64/libogg.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libogg.so.0
+Reading symbols from /lib64/libelf.so.1...Reading symbols from /lib64/libelf.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libelf.so.1
+Reading symbols from /lib64/libnss_files.so.2...(no debugging symbols found)...done.
+Loaded symbols for /lib64/libnss_files.so.2
+Reading symbols from /lib64/libudev.so.1...Reading symbols from /lib64/libudev.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libudev.so.1
+Reading symbols from /lib64/libdbus-glib-1.so.2...Reading symbols from /lib64/libdbus-glib-1.so.2...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libdbus-glib-1.so.2
+Reading symbols from /lib64/libgio-2.0.so.0...Reading symbols from /lib64/libgio-2.0.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libgio-2.0.so.0
+Reading symbols from /lib64/libgobject-2.0.so.0...Reading symbols from /lib64/libgobject-2.0.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libgobject-2.0.so.0
+Reading symbols from /lib64/libffi.so.6...Reading symbols from /lib64/libffi.so.6...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libffi.so.6
+Reading symbols from /lib64/libgmodule-2.0.so.0...Reading symbols from /lib64/libgmodule-2.0.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libgmodule-2.0.so.0
+Reading symbols from /lib64/libmount.so.1...Reading symbols from /lib64/libmount.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libmount.so.1
+Reading symbols from /lib64/libblkid.so.1...Reading symbols from /lib64/libblkid.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libblkid.so.1
+0x00002aaab1b2960c in waitpid () from /lib64/libc.so.6
+Missing separate debuginfos, use: debuginfo-install bzip2-libs-1.0.6-13.el7.x86_64 dbus-glib-0.100-7.el7.x86_64 dbus-libs-1.10.24-15.el7.x86_64 elfutils-libelf-0.176-5.el7.x86_64 elfutils-libs-0.176-5.el7.x86_64 expat-2.1.0-15.el7_9.x86_64 flac-libs-1.3.0-5.el7_1.x86_64 glib2-2.56.1-9.el7_9.x86_64 glibc-2.17-326.el7_9.3.x86_64 graphite2-1.3.10-1.el7_3.x86_64 gsm-1.0.13-11.el7.x86_64 keyutils-libs-1.5.8-3.el7.x86_64 krb5-libs-1.15.1-55.el7_9.x86_64 libICE-1.0.9-9.el7.x86_64 libSM-1.2.2-2.el7.x86_64 libX11-1.6.7-5.el7_9.x86_64 libXScrnSaver-1.2.2-6.1.el7.x86_64 libXau-1.0.8-2.1.el7.x86_64 libXcomposite-0.4.4-4.1.el7.x86_64 libXext-1.3.3-3.el7.x86_64 libXft-2.3.2-2.el7.x86_64 libXi-1.7.9-1.el7.x86_64 libXrandr-1.5.1-2.el7.x86_64 libXrender-0.9.10-1.el7.x86_64 libXtst-1.2.3-1.el7.x86_64 libasyncns-0.8-7.el7.x86_64 libattr-2.4.46-13.el7.x86_64 libblkid-2.23.2-65.el7_9.1.x86_64 libcap-2.22-11.el7.x86_64 libcom_err-1.42.9-19.el7.x86_64 libffi-3.0.13-19.el7.x86_64 libgcrypt-1.5.3-14.el7.x86_64 libglvnd-glx-1.0.1-0.8.git5baa1e5.el7.x86_64 libgpg-error-1.12-3.el7.x86_64 libmount-2.23.2-65.el7_9.1.x86_64 libogg-1.3.0-7.el7.x86_64 libpng12-1.2.50-10.el7.x86_64 libselinux-2.5-15.el7.x86_64 libsndfile-1.0.25-12.el7_9.1.x86_64 libuuid-2.23.2-65.el7_9.1.x86_64 libvorbis-1.3.3-8.el7.1.x86_64 libxcb-1.13-1.el7.x86_64 lz4-1.8.3-1.el7.x86_64 pcre-8.32-17.el7.x86_64 pulseaudio-libs-10.0-6.el7_9.x86_64 pulseaudio-libs-glib2-10.0-6.el7_9.x86_64 sqlite-3.7.17-8.el7_7.1.x86_64 systemd-libs-219-78.el7_9.9.x86_64 tcp_wrappers-libs-7.6-77.el7.x86_64 xz-libs-5.2.2-2.el7_9.x86_64
+(gdb) (gdb) #0  0x00002aaab1b2960c in waitpid () at /lib64/libc.so.6
+#1  0x00002aaab1aa6f62 in do_system () at /lib64/libc.so.6
+#2  0x00000000135bd73d in SNPSee_4f1eca636f186904 ()
+#3  0x00000000135896cd in SNPSee_216f3c2f4c55dbceb170dcb7639b9c2cdd496024a8e266b98132685c735317487fd2aa296d8a7317 ()
+#4  0x000000001358b0bd in SNPSee_216f3c2f4c55dbceb170dcb7639b9c2cdd496024a8e266b98132685c73531748e1eb9162e9fd7182 ()
+#5  0x0000000000d6a91a in SNPSee_f1ee00d2049be34bc9fa2aabd0709c661b77ea09a2cd7785 ()
+#6  0x000000000d0d0ca1 in SNPSee_b0111077a1564ec2f03c23d0bb102089cced107fffe7abc9 ()
+#7  0x000000000d0d160a in SNPSee_616b6e047c741ff1baf571efe85d3536eac68d027a1be0e0030a066449e92897 ()
+#8  0x000000000d0d110d in SNPSee_b5b74bb29e23928e271a046254d5c62e ()
+#9  0x000000001209c2de in SNPSee_3da1e8e388eef22c4cad96049bb507e323902e731626b6f85a1de23e01dcfb84 ()
+#10 0x00002aaaae59c630 in <signal handler called> () at /lib64/libpthread.so.0
+#11 0x00000000125b83a5 in SNPSee_2130a99d717c9b5f473539961a6587fe ()
+#12 0x00000000087a44af in SNPSee_7fe7326d0e3fda3243f8a4a657046a5d ()
+#13 0x00000000086558ae in SNPSee_5546393349b9abe40ea6402d2f11c8bbb9687e5c0a49d9683617350609b5954e ()
+#14 0x0000000008656cf8 in SNPSee_4a789f7ded4d7f4f3a2af10b8c99f72c99c0582f7cc09e98 ()
+#15 0x0000000008399385 in SNPSee_b12126f101c353d3949f0dcbe015030a4ed4227706de12936f2989d43153a653 ()
+#16 0x0000000008385dbf in SNPSee_869ee094565fa44341f778fa079d20dd ()
+#17 0x000000000820ae92 in SNPSee_1c8ac67927dd1f3e47a46f9093b3617db5054ce9750baf7b ()
+#18 0x000000000897e0cd in SNPSee_3afc68eb3836d9f8855f834988d3c6351d659b7c581f79db1989766fcdf391be6b4540e896ccafb3790b798ee788704754b821427ec8e993129099fa31c2de3564d6b978937398faaad463e2b7759b0c969b9b0a5cb8b03c9b96169fb01c24343b6126c052d22ae4 ()
+#19 0x000000000897e1d3 in SNPSee_3afc68eb3836d9f8855f834988d3c6351d659b7c581f79db1989766fcdf391be6b4540e896ccafb3790b798ee788704754b821427ec8e993129099fa31c2de3564d6b978937398faaad463e2b7759b0c969b9b0a5cb8b03cd45bfa5fe9091b5a440b4fb0fe54e6699f4de995b84b9b7e ()
+#20 0x000000000897b02e in SNPSee_c0fa0a2a381fa1197b29f8c7f588de029ade88ec9882806bcd39938d54cb54bd8c494392a1f42cde95880cc307a414e8b969efde5394a67c657dad834c784234f0451647341ab6100c3217bd61ace1e40adaebeb9b7b322304096a2008828ee8 ()
+#21 0x0000000008997639 in SNPSee_c0fa0a2a381fa11938f187756baaff94d6b7c1b8d0c3fea7416661dec13cbd0c15f6ab3f25d8d5ee32440938a5e5969e ()
+#22 0x00000000089942d1 in SNPSee_43dcfe82279bee618692a279effebb29ce40663ee0cb921da1ffc54662285c24f0942aa35f81969d5f25146f9824bc21 ()
+#23 0x0000000008996f99 in SNPSee_c0fa0a2a381fa11938f187756baaff94d6b7c1b8d0c3fea7416661dec13cbd0c831d82595a18b1561d8adf60b37a3790 ()
+#24 0x00000000089941af in SNPSee_43dcfe82279bee618692a279effebb29ce40663ee0cb921da1ffc54662285c24f0942aa35f81969d5f25146f9824bc21 ()
+#25 0x0000000008996f99 in SNPSee_c0fa0a2a381fa11938f187756baaff94d6b7c1b8d0c3fea7416661dec13cbd0c831d82595a18b1561d8adf60b37a3790 ()
+#26 0x00000000089941af in SNPSee_43dcfe82279bee618692a279effebb29ce40663ee0cb921da1ffc54662285c24f0942aa35f81969d5f25146f9824bc21 ()
+#27 0x0000000008996f99 in SNPSee_c0fa0a2a381fa11938f187756baaff94d6b7c1b8d0c3fea7416661dec13cbd0c831d82595a18b1561d8adf60b37a3790 ()
+#28 0x00000000089941af in SNPSee_43dcfe82279bee618692a279effebb29ce40663ee0cb921da1ffc54662285c24f0942aa35f81969d5f25146f9824bc21 ()
+#29 0x000000000898eabc in SNPSee_56ee9efecfbdf6b65fdcd9c8058708604ccffd1057fb269f889f8bedadd4ec65af36f2694cb750b13f57dc7a26e6aa31b436bf47115763f8d0dc3dbb9c40c1fec24315c6afe45b692f6776dc35701c8c44694c5ae56d4e4526093e50c0b8920c7ad6cc485b049ce0c3b526c2c11901de ()
+#30 0x000000000896b25c in SNPSee_c0fa0a2a381fa1197852dab3639d382bf9d0754ecd563242646e11cd6c72340e9504239e02c5fab879cec724974cd77fa59f67bca73a66bb9be408c9219fadd262552081942629ab ()
+#31 0x0000000008963dca in SNPSee_1e2ca71fd6d5395ac5ad498ad90fa20803f6e9e976d939f4e84f8f84018570bdfbb292d6ef0ade1ba1acd688da35c39b1f4262792740562045940477a87a6f22 ()
+#32 0x00000000089642fb in SNPSee_179da8fc9642261f2fb4c1426b439580850d8e784bfb16cd7fb1ee9380b08146 ()
+#33 0x000000000301ef14 in SNPSee_e62e1698d01baea270eb67de5d9d871f4e31c2d6fc6a396ab83fa7819890583f ()
+#34 0x0000000002fffacc in SNPSee_e62e1698d01baea2f0ae7e2593b52a11 ()
+#35 0x0000000003257bac in SNPSee_800cfa09c4312a2a658022cd459e34616900e8f99890a5ed ()
+#36 0x0000000012afc135 in SNPSee_7ea007f17721baa8c52712154029f5e48c5b42d17487296853bec6f509fb5cd7fb8e3aecaf9a59df5ceaf3227abcdf276664c5bfd5ca6b006d34e6f6d0022bb5aa6a0546020548c042f868058edbb564 ()
+#37 0x00000000123d5270 in SNPSee_18ae1188a5a6482452f3b67abbc891010269f13ce0e30d67 ()
+#38 0x000000001366464c in SNPSee_57415c5b07ec5e8b8118f96e6212a2c42c69fd3f49376c0d ()
+#39 0x00000000136697c7 in SNPSee_1ac40924fdff8310f5184d6eb67c5798036a89169a27d790 ()
+#40 0x000000001366b63f in SNPSee_a00aeeb47fd325df3eff4946e57739a1 ()
+#41 0x00000000123f2a36 in SNPSee_5b9e0c983f97901fa4e0af164abe7efeb24c5f4c6136879c869b2b88ca4e26329cbb10d1a609855d ()
+#42 0x00000000123af39f in SNPSee_59511b0144537c36c6614840eb25b067 ()
+#43 0x00000000123c106f in SNPSee_dfcfd18c870f576645dec230cc55940481eea9a4962927b3b2419a5f9f3803d6e6d6151e8a6657b75c63db485ae230e97b8a0dd27c2cdfedd6e7ab8b3504080f ()
+#44 0x00000000123d5270 in SNPSee_18ae1188a5a6482452f3b67abbc891010269f13ce0e30d67 ()
+#45 0x000000001366464c in SNPSee_57415c5b07ec5e8b8118f96e6212a2c42c69fd3f49376c0d ()
+#46 0x00000000136697c7 in SNPSee_1ac40924fdff8310f5184d6eb67c5798036a89169a27d790 ()
+#47 0x00000000123d0778 in SNPSee_eb883b8643ac3618e46fbd7d90d84cd1d9cf41f1ea1de2433ad64196cf3fcc2ce0cf4135a98ecf06 ()
+#48 0x00000000123d2a48 in SNPSee_c9aef8ff45700e7498f09e7fe7ec58c036cd580d7ddf92c3 ()
+#49 0x0000000002dbe387 in SNPSee_d188ae5ca31ec51f7cba18dffac171b0221ec425774837558df4ddc3322fc732e06cbd83d58883e1 ()
+#50 0x0000000002dc9076 in SNPSee_3221a15a6f1a35304e1e2a6725c055e64954ed411c02b8fea588b35e0540b178b78986c80d1d5eb53d84afadfe38b7c2 ()
+#51 0x0000000002dc926f in SNPSee_3221a15a6f1a3530a06e6740411df9e026698cb37d965801c2f87fce0f07c0f8 ()
+#52 0x0000000002dc9967 in SNPSee_76d6cca1ef29382ca84b036280d53dca ()
+#53 0x0000000000d6f156 in SNPSee_a8c67c391924da59bb0a6e836c77e2d8 ()
+#54 0x0000000000c66d99 in SNPSee_5a24f30b88271223 ()
+#55 0x00002aaab1a86555 in __libc_start_main () at /lib64/libc.so.6
+#56 0x0000000000d687be in SNPSee_d06eed713327be76 ()
+(gdb) Detaching from program: /usr/synopsys/syn/T-2022.03-SP5-6/linux64/syn/bin/common_shell_exec, process 8086
+[Inferior 1 (process 8086) detached]
+(gdb) 

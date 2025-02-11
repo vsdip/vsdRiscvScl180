@@ -1,0 +1,12 @@
+// this isn't needed here
+export PDK_ROOT=/home/vsduser/open_pdks/sky130
+export PDK=sky130A
+
+
+// please install riscv gcc compiler and set the path accordingly.
+export GCC_PATH=/usr/bin
+export GCC_PREFIX=riscv64-unknown-elf
+
+// please set this depending on where you have this files downloaded
+export MGMT_CORE_PATH=~/caravel_sky130
+ 

@@ -1,0 +1,281 @@
+CRTE_SNAPSHOT_START
+
+SECTION_CRTE_VERSION
+3.0
+
+SECTION_PID
+8086
+
+SECTION_POLLING_INTERVAL
+5
+
+SECTION_DATE_TIME
+Sat Jan 25 18:59:41 UTC 2025 (1737831581)
+
+SECTION_OS_VERSION
+osname: Linux
+hostname: sfalvsd
+arch: x86_64
+release_version: 3.10.0-1160.114.2.el7.x86_64
+
+SECTION_IPC_INFO
+
+------ Message Queues --------
+key        msqid      owner      perms      used-bytes   messages    
+
+------ Shared Memory Segments --------
+key        shmid      owner      perms      bytes      nattch     status      
+0x00000000 3604480    chetana    777        8192       1          dest         
+0x00000000 3604481    chetana    777        1638400    1          dest         
+0x00000000 6782980    dhanvanti  600        524288     2          dest         
+0x00000000 7471109    dhanvanti  600        393216     2          dest         
+0x00000000 5472262    dhanvanti  777        16384      1          dest         
+0x00000000 5472263    dhanvanti  777        8355840    1          dest         
+0x00000000 5931016    vijayalaxm 777        8192       1          dest         
+0x00000000 5931017    vijayalaxm 777        2359296    1          dest         
+0x00000000 7438346    dhanvanti  777        2064384    2          dest         
+0x00000000 6914060    dhanvanti  777        9338880    1        SECTION_ULIMIT
+core file size          (blocks, -c) 0
+data seg size           (kbytes, -d) unlimited
+scheduling priority             (-e) 0
+file size               (blocks, -f) unlimited
+pending signals                 (-i) 63186
+max locked memory       (kbytes, -l) 64
+max memory size         (kbytes, -m) unlimited
+open files                      (-n) 4096
+pipe size            (512 bytes, -p) 8
+POSIX message queues     (bytes, -q) 819200
+real-time priority              (-r) 0
+stack size              (kbytes, -s) unlimited
+cpu time               (seconds, -t) unlimited
+max user processes              (-u) 4096
+virtual memory          (kbytes, -v) unlimited
+file locks                      (-x) unlimited
+
+SECTION_SYSCONF
+_SC_THREAD_SAFE_FUNCTIONS= 200809
+_SC_CLK_TCK= 100
+_SC_OPEN_MAX= 4096
+_SC_PAGE_SIZE= 4096
+_SC_ARG_MAX= 4611686018427387903
+_SC_CHILD_MAX= 4096
+_SC_LINE_MAX= 2048
+
+SECTION_FULL_COMMAND
+/usr/synopsys/syn/T-2022.03-SP5-6/linux64/syn/bin/common_shell_exec -shell dc_shell -r /usr/synopsys/syn/T-2022.03-SP5-6 -f ../synth.tcl
+
+SECTION_CPUINFO
+total_core: 8
+
+model_name:  DO-Regular
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology eagerfpu pni pclmulqdq vmx ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single ssbd rsb_ctxsw ibrs ibpb tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap xsaveopt arat md_clear spec_ctrl
+cpu_family: 6
+core_frequency_mhz: 2494
+core_per_socket: 0
+stepping: 1
+cache_size_kb: 4096
+ht: 0
+
+model_name:  DO-Regular
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology eagerfpu pni pclmulqdq vmx ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single ssbd rsb_ctxsw ibrs ibpb tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap xsaveopt arat md_clear spec_ctrl
+cpu_family: 6
+core_frequency_mhz: 2494
+core_per_socket: 0
+stepping: 1
+cache_size_kb: 4096
+ht: 0
+
+model_name:  DO-Regular
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology eagerfpu pni pclmulqdq vmx ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single ssbd rsb_ctxsw ibrs ibpb tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap xsaveopt arat md_clear spec_ctrl
+cpu_family: 6
+core_frequency_mhz: 2494
+core_per_socket: 0
+stepping: 1
+cache_size_kb: 4096
+ht: 0
+
+model_name:  DO-Regular
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology eagerfpu pni pclmulqdq vmx ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single ssbd rsb_ctxsw ibrs ibpb tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap xsaveopt arat md_clear spec_ctrl
+cpu_family: 6
+core_frequency_mhz: 2494
+core_per_socket: 0
+stepping: 1
+cache_size_kb: 4096
+ht: 0
+
+model_name:  DO-Regular
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology eagerfpu pni pclmulqdq vmx ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single ssbd rsb_ctxsw ibrs ibpb tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap xsaveopt arat md_clear spec_ctrl
+cpu_family: 6
+core_frequency_mhz: 2494
+core_per_socket: 0
+stepping: 1
+cache_size_kb: 4096
+ht: 0
+
+model_name:  DO-Regular
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology eagerfpu pni pclmulqdq vmx ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single ssbd rsb_ctxsw ibrs ibpb tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap xsaveopt arat md_clear spec_ctrl
+cpu_family: 6
+core_frequency_mhz: 2494
+core_per_socket: 0
+stepping: 1
+cache_size_kb: 4096
+ht: 0
+
+model_name:  DO-Regular
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology eagerfpu pni pclmulqdq vmx ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single ssbd rsb_ctxsw ibrs ibpb tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap xsaveopt arat md_clear spec_ctrl
+cpu_family: 6
+core_frequency_mhz: 2494
+core_per_socket: 0
+stepping: 1
+cache_size_kb: 4096
+ht: 0
+
+model_name:  DO-Regular
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology eagerfpu pni pclmulqdq vmx ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single ssbd rsb_ctxsw ibrs ibpb tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap xsaveopt arat md_clear spec_ctrl
+cpu_family: 6
+core_frequency_mhz: 2494
+core_per_socket: 0
+stepping: 1
+cache_size_kb: 4096
+ht: 0
+
+SECTION_OS_RELEASE_VERSION
+CentOS Linux release 7.9.2009 (Core)
+
+
+SECTION_SYS/VM
+/proc/sys/vm/admin_reserve_kbytes:8192
+/proc/sys/vm/block_dump:0
+/proc/sys/vm/dirty_background_bytes:0
+/proc/sys/vm/dirty_background_ratio:10
+/proc/sys/vm/dirty_bytes:0
+/proc/sys/vm/dirty_expire_centisecs:3000
+/proc/sys/vm/dirty_ratio:30
+/proc/sys/vm/dirty_writeback_centisecs:500
+/proc/sys/vm/drop_caches:0
+/proc/sys/vm/extfrag_threshold:500
+/proc/sys/vm/hugepages_treat_as_movable:0
+/proc/sys/vm/hugetlb_shm_group:0
+/proc/sys/vm/laptop_mode:0
+/proc/sys/vm/legacy_va_layout:0
+/proc/sys/vm/lowmem_reserve_ratio:256	256	32
+/proc/sys/vm/max_map_count:65530
+/proc/sys/vm/memory_failure_early_kill:0
+/proc/sys/vm/memory_failure_recovery:1
+/proc/sys/vm/min_free_kbytes:67584
+/proc/sys/vm/min_slab_ratio:5
+/proc/sys/vm/min_unmapped_ratio:1
+/proc/sys/vm/mmap_min_addr:4096
+/proc/sys/vm/nr_hugepages:0
+/proc/sys/vm/nr_hugepages_mempolicy:0
+/proc/sys/vm/nr_overcommit_hugepages:0
+/proc/sys/vm/nr_pdflush_threads:0
+/proc/sys/vm/numa_zonelist_order:default
+/proc/sys/vm/oom_dump_tasks:1
+/proc/sys/vm/oom_kill_allocating_task:0
+/proc/sys/vm/overcommit_kbytes:0
+/proc/sys/vm/overcommit_memory:0
+/proc/sys/vm/overcommit_ratio:50
+/proc/sys/vm/page-cluster:3
+/proc/sys/vm/panic_on_oom:0
+/proc/sys/vm/percpu_pagelist_fraction:0
+/proc/sys/vm/stat_interval:1
+/proc/sys/vm/swappiness:30
+/proc/sys/vm/user_reserve_kbytes:131072
+/proc/sys/vm/vfs_cache_pressure:100
+/proc/sys/vm/zone_reclaim_mode:0
+
+
+SECTION_SWAP
+Error: Could not collect the data.
+
+CRTE_SNAPSHOT_END
+
+CRTE_PERIODIC_START 1 1737831581038
+
+SECTION_MPSTAT
+total_core: 8
+
+CPU     %user   %kernel %wait   %idle   
+all   1.139005 0.687639 0.012679 98.160683
+0     0.783537 0.398564 0.007534 98.810364
+1     1.650291 1.102900 0.009789 97.237022
+2     1.604182 1.068182 0.010049 97.317589
+3     1.288881 0.843015 0.010141 97.857964
+4     1.173660 0.673198 0.008721 98.144409
+5     0.948076 0.545358 0.024084 98.482483
+6     0.912585 0.536770 0.021707 98.528946
+7     0.762283 0.342555 0.009341 98.885811
+SECTION_LOADAVG
+0.66 0.47 0.47 1/2641 8149
+
+SECTION_PID_STATUS
+name: common_shell_ex
+state: 1
+vmsize: 2206412
+vmrss: 265148
+vmdata: 1362956
+vmstk: 136
+vmexe: 316388
+vmlib: 318548
+threads: 1
+
+SECTION_PROCESS_CPU_UTIL
+pid: 8086
+cpu_total_time: 1421138883
+cpu_used_time: 2239
+cpu_p: 
+
+SECTION_SYSTEM_CPU_UTIL
+sys_cpu_p: 
+
+SECTION_MEMINFO
+memtotal: 16265296
+memfree: 714572
+cached: 3149148
+swapcached: 0
+active: 12529576
+swaptotal: 0
+swapfree: 0
+
+SECTION_SMAPS
+shared_kb: 3216
+private_kb: 261940
+
+SECTION_DF
+Filesystem  Size  Used Avail Use%
+filesystem        319G  152G  167G    48
+
+Filesystem    Inodes   IUsed   IFree   IUse%
+filesystem          167770560  1608105 166162455   4294965076
+
+SECTION_CWD
+Filesystem  Size  Used Avail Use%
+filesystem        319G  152G  167G    48
+
+Filesystem    Inodes   IUsed   IFree   IUse%
+filesystem          167770560  1608105 166162455   4294965076
+
+SECTION_SWAP_RATE
+Error: Could not collect the data.
+
+SECTION_FD_SIZE
+files: 16
+total_size: 1679234
+
+SECTION_NET_INTERFACE
+total_eth_avbl: 4
+
+name net_rx_err net_rx_drp net_tx_err net_tx_drp 
+  eth0:         0        0        0        0
+  eth1:           0        0        0        0
+    lo:         0        0        0        0
+virbr0-nic:               0        0        0        0
+
+SECTION_NFSSTAT
+Error: Could not collect the data.
+
+SECTION_THREAD_CPU_UTIL
+8086 : 8086 (common_shell_ex) R 867 8086 867 34820 8086 8192 349863 188119 29 16 1354 136 670 80 20 0 1 0 178727392 2259365888 66287 18446744073709551615 4194304 328171869 140737488345392 140737488321832 46912557922112 0 2147221247 67112960 1132490495 0 0 0 17 0 0 0 6 0 0 418442576 450116527 1674113024 140737488346275 140737488346412 140737488346412 140737488351156 0
+
+CRTE_PERIODIC_END 1 1737831581038

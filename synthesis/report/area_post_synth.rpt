@@ -1,0 +1,31 @@
+ 
+****************************************
+Report : area
+Design : vsdcaravel
+Version: T-2022.03-SP5-6
+Date   : Tue Feb 11 08:45:37 2025
+****************************************
+
+Library(s) Used:
+
+    tsl18fs120_scl_ff (File: /home/dhanvanti/scl_pdk_v2/stdlib/fs120/liberty/lib_flow_ff/tsl18fs120_scl_ff.db)
+    tsl18cio250_typ (File: /home/dhanvanti/scl_pdk_v2/iolib/cio250/synopsys/2002.05/models/tsl18cio250_typ.db)
+
+Number of ports:                        14629
+Number of nets:                         39986
+Number of cells:                        32118
+Number of combinational cells:          19409
+Number of sequential cells:              6922
+Number of macros/black boxes:              20
+Number of buf/inv:                       3804
+Number of references:                       2
+
+Combinational area:             357810.260164
+Buf/Inv area:                    33266.569905
+Noncombinational area:          484155.701725
+Macro/Black Box area:             5282.080254
+Net Interconnect area:           36476.127832
+
+Total cell area:                847248.042143
+Total area:                     883724.169975
+1
