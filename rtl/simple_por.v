@@ -52,7 +52,7 @@ module dummy_por(
 	end
   
     `endif      // Instantiate two shmitt trigger buffers in series
-       sky130_fd_sc_hvl__schmittbuf_1 hystbuf1 (
+       dummy__schmittbuf_1 hystbuf1 (
 `ifdef USE_POWER_PINS
 	.VPWR(vdd3v3),
 	.VGND(vss3v3),
@@ -64,7 +64,7 @@ module dummy_por(
 	
     );
 
-    sky130_fd_sc_hvl__schmittbuf_1 hystbuf2 (
+    dummy__schmittbuf_1 hystbuf2 (
 `ifdef USE_POWER_PINS
 	.VPWR(vdd3v3),
 	.VGND(vss3v3),
@@ -75,18 +75,7 @@ module dummy_por(
 	.X(porb_h)
     );
 
-/*    sky130_fd_sc_hvl__lsbufhv2lv_1 porb_level (
-`ifdef USE_POWER_PINS
-	.VPWR(vdd3v3),
-	.VPB(vdd3v3),
-	.LVPWR(vdd1v8),
-	.VNB(vss3v3),
-	.VGND(vss3v3),
-`endif
-	.A(porb_h),
-	.X(porb_l)
-    );
-*/
+
 // since SCL180 has level-shifters already available in I/O pads
     assign porb_l = porb_h;
     // since this is behavioral anyway, but this should be

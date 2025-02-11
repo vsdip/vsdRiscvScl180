@@ -15,12 +15,15 @@
 // SPDX-License-Identifier: Apache-2.0
 
 /*--------------------------------------------------------------*/
-/* caravel_openframe, a project harness for the Google/SkyWater	*/
-/* sky130 fabrication process and open source PDK		*/
-/*                                                          	*/
-/* Copyright 2023 Efabless Corporation				*/
-/* Written by Tim Edwards, March 2023                    	*/
-/* This file is open source hardware released under the     	*/
+/* Vsdcaravel, RISC-V SoC Implementation using Synopsys and SCL180 PDK,*/
+/* a project for the VSD/Semiconductor Laboratory SCL180	           */
+/* fabrication process 			                                       */
+/*                                                          	       */
+/* Copyright 2025 efabless, Inc. /VSD                           	   */
+/* Originally written by Tim Edwards, December 2019                    */
+/* and Mohamed Shalan, August 2020			    	                   */
+/* Edited by Dhanvanti Bhavsar and Kunal Ghosh on (11/02/2025)		   */
+/* Updated on 11/02/2025:  Revised using SCL180 PDK	                   */
 /* Apache 2.0 license.  See file LICENSE.                   	*/
 /*								*/
 /* The caravel_openframe is a chip top level design conforming	*/

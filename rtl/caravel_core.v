@@ -16,21 +16,22 @@
 // limitations under the License.
 // SPDX-License-Identifier: Apache-2.0
 
-/*--------------------------------------------------------------*/
-/* caravel, a project harness for the Google/SkyWater sky130	*/
-/* fabrication process and open source PDK			*/
-/*                                                          	*/
-/* Copyright 2020 efabless, Inc.                            	*/
-/* Written by Tim Edwards, December 2019                    	*/
-/* and Mohamed Shalan, August 2020			    	*/
-/* This file is open source hardware released under the     	*/
-/* Apache 2.0 license.  See file LICENSE.                   	*/
-/*								*/
-/* Updated 10/15/2021:  Revised using the housekeeping module	*/
-/* from housekeeping.v (refactoring a number of functions from	*/
-/* the management SoC).						*/
-/*                                                          	*/
-/*--------------------------------------------------------------*/
+/*---------------------------------------------------------------------*/
+/* Vsdcaravel, RISC-V SoC Implementation using Synopsys and SCL180 PDK,*/
+/* a project for the VSD/Semiconductor Laboratory SCL180	           */
+/* fabrication process 			                                       */
+/*                                                          	       */
+/* Copyright 2025 efabless, Inc. /VSD                           	   */
+/* Originally written by Tim Edwards, December 2019                    */
+/* and Mohamed Shalan, August 2020			    	                   */
+/* Edited by Dhanvanti Bhavsar and Kunal Ghosh on (11/02/2025)		   */
+/* Updated on 11/02/2025:  Revised using SCL180 PDK	                   */
+/* This file is open source hardware released under the     	       */
+/* Apache 2.0 license.  See file LICENSE.                   	       */
+/* from housekeeping.v (refactoring a number of functions from	       */
+/* the management SoC).						                           */
+/*                                                          	       */
+/*---------------------------------------------------------------------*/
 
 `include "mprj_io_buffer.v"
 `include "manual_power_connections.v"

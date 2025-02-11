@@ -18,7 +18,6 @@
 # PDK_PATH = $(PDK_ROOT)/$(PDK)
 VERILOG_PATH = ../../
 RTL_PATH = $(VERILOG_PATH)/rtl
-GL_PATH = $(VERILOG_PATH)/gl
 BEHAVIOURAL_MODELS = ../ 
 RISCV_TYPE ?= rv32imc
 
@@ -35,12 +34,8 @@ SIM?=RTL
 PATTERN = hkspi
 
 # Path to management SoC wrapper repository
-MGMT_CORE_PATH ?= ~/CARAVEL/caravel_scl
-ifeq ($(SIM),RTL)
-	MGMT_WRAPPER_PATH = $(MGMT_CORE_PATH)/rtl
-else
-	MGMT_WRAPPER_PATH = $(MGMT_CORE_PATH)/gl
-endif
+scl_io_wrapper_PATH ?= $(RTL_PATH)/scl180_wrapper
+	
 
 vvp:  ${PATTERN:=.vvp}
 
@@ -49,15 +44,12 @@ hex:  ${PATTERN:=.hex}
 vcd:  ${PATTERN:=.vcd}
 
 %.vvp: %_tb.v %.hex
-ifeq ($(SIM),RTL)
 	iverilog -Ttyp $(SIM_DEFINES) -I $(BEHAVIOURAL_MODELS) \
-	 -I $(RTL_PATH) -I $(MGMT_WRAPPER_PATH) -I ../scl180/  \
+	 -I $(RTL_PATH) -I $(scl_io_wrapper_PATH)   \
 	$< -o $@ 
-else  
-	iverilog -Ttyp $(SIM_DEFINES) -DGL -I $(BEHAVIOURAL_MODELS) -I ../scl180/ \
-	-I $(PDK_PATH) -I $(VERILOG_PATH) -I $(RTL_PATH) -I $(MGMT_WRAPPER_PATH) \
-	$< -o $@ 
-endif
+ 
+	
+
 
 %.vcd: %.vvp
 	vvp $<

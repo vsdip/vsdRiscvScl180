@@ -18,10 +18,10 @@
 # PDK_PATH = $(PDK_ROOT)/$(PDK)
 VERILOG_PATH = ../
 RTL_PATH = $(VERILOG_PATH)/gl
-BEHAVIOURAL_MODELS = ../dv 
+BEHAVIOURAL_MODELS = ../GLS
 RISCV_TYPE ?= rv32imc
 PDK_PATH= /home/dhanvanti/scl_pdk_v2/stdlib/fs120/verilog/vcs_sim_model 
-FIRMWARE_PATH = ../dv
+FIRMWARE_PATH = ../GLS
 GCC_PATH?=/home/dhanvanti/Downloads/riscv32/bin
 GCC_PREFIX?=riscv32-unknown-elf
 
@@ -33,30 +33,16 @@ SIM?=gl
 
 PATTERN = hkspi
 
-# Path to management SoC wrapper repository
-MGMT_CORE_PATH ?= ~/CARAVEL/caravel_scl
-ifeq ($(SIM),RTL)
-	MGMT_WRAPPER_PATH = $(MGMT_CORE_PATH)/rtl
-else
-	MGMT_WRAPPER_PATH = $(MGMT_CORE_PATH)/gl
-endif
-
 vvp:  ${PATTERN:=.vvp}
 
 hex:  ${PATTERN:=.hex}
 
 vcd:  ${PATTERN:=.vcd}
 
-%.vvp: %_tb1.v %.hex
-ifeq ($(SIM),RTL)
-	iverilog -Ttyp $(SIM_DEFINES) -I $(BEHAVIOURAL_MODELS) \
-	 -I $(RTL_PATH) -I $(MGMT_WRAPPER_PATH) -I ../scl180/  \
+%.vvp: %_tb.v %.hex
+    iverilog -Ttyp $(SIM_DEFINES) -DGL -I $(VERILOG_PATH)/synthesis/output -I $(BEHAVIOURAL_MODELS) -I $(PDK_PATH)  \
+	-I $(PDK_PATH) -I $(VERILOG_PATH) -I $(RTL_PATH)   \
 	$< -o $@ 
-else  
-	iverilog -Ttyp $(SIM_DEFINES) -DGL -I $(VERILOG_PATH)/synthesis/output -I $(BEHAVIOURAL_MODELS) -I $(PDK_PATH) -I ../scl180/ \
-	-I $(PDK_PATH) -I $(VERILOG_PATH) -I $(RTL_PATH) -I $(MGMT_WRAPPER_PATH)  \
-	$< -o $@ 
-endif
 
 %.vcd: %.vvp
 	vvp $<

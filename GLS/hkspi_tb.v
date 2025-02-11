@@ -19,18 +19,11 @@
 */
 
 `timescale 1 ns / 1 ps
-//    `include "defines.v"
-//    `include "user_defines.v"
-//    `include "pads.v"
-//`include "__uprj_netlists.v"
-//`include "caravel_netlists.v"
-`include "tsl18fs120_scl.v"
-//`include "pc3b03ed_wrapper.v"
-//`include "pc3d01.v"
-//`include "pc3d21.v"
-//`include "pc3b02.v"
 
-`include "caravel_synthesis.v"
+`define USE_POWER_PINS
+`include "defines.v"
+//`include "__uprj_netlists.v"
+`include "caravel_netlists.v"
 `include "spiflash.v"
 `include "tbuart.v"
 

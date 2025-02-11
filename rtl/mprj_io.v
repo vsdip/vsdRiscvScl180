@@ -15,13 +15,7 @@
 
 // `default_nettype none
 
-/* Define the array of GPIO pads.  Note that the analog project support
- * version of caravel (caravan) defines fewer GPIO and replaces them
- * with analog in the chip_io_alt module.  Because the pad signalling
- * remains the same, `MPRJ_IO_PADS does not change, so a local parameter
- * is made that can be made smaller than `MPRJ_IO_PADS to accommodate
- * the analog pads.
- */
+
 
 module mprj_io #(
     parameter AREA1PADS = `MPRJ_IO_PADS_1,
