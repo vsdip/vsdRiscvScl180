@@ -11,7 +11,7 @@ Report : power
         -analysis_effort low
 Design : vsdcaravel
 Version: T-2022.03-SP5-6
-Date   : Tue Feb 11 08:45:43 2025
+Date   : Tue Feb 11 18:33:05 2025
 ****************************************
 
 
@@ -43,12 +43,12 @@ Attributes
 i - Including register clock pin internal power
 
 
-  Cell Internal Power  =  39.2345 mW   (54%)
-  Net Switching Power  =  33.4671 mW   (46%)
+  Cell Internal Power  =  39.2572 mW   (54%)
+  Net Switching Power  =  33.4425 mW   (46%)
                          ---------
-Total Dynamic Power    =  72.7016 mW  (100%)
+Total Dynamic Power    =  72.6997 mW  (100%)
 
-Cell Leakage Power     =   1.5621 uW
+Cell Leakage Power     =   1.5620 uW
 
 Information: report_power power group summary does not include estimated clock tree power. (PWR-789)
 
@@ -57,11 +57,11 @@ Power Group      Power            Power               Power              Power  
 --------------------------------------------------------------------------------------------------
 io_pad             3.2232        7.3891e-03        4.1871e+05            3.2310  (   4.44%)
 memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
-black_box          0.0000            0.2297           62.7200            0.2297  (   0.32%)
+black_box          0.0000            0.2323           62.7200            0.2323  (   0.32%)
 clock_network      0.0000            0.0000            0.0000            0.0000  (   0.00%)  i
 register           0.0000            0.0000            0.0000            0.0000  (   0.00%)
-sequential        33.9079        9.0469e-02        7.1949e+05           33.9993  (  46.77%)
-combinational      2.1044           33.1373        4.2385e+05           35.2419  (  48.47%)
+sequential        33.9336        8.8387e-02        7.1949e+05           34.0228  (  46.80%)
+combinational      2.1015           33.1122        4.2372e+05           35.2138  (  48.44%)
 --------------------------------------------------------------------------------------------------
-Total             39.2355 mW        33.4648 mW     1.5621e+06 pW        72.7018 mW
+Total             39.2582 mW        33.4402 mW     1.5620e+06 pW        72.6999 mW
 1

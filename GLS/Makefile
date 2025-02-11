@@ -16,6 +16,7 @@
 
 # removing pdk path as everything has been included in one whole directory for this example.
 # PDK_PATH = $(PDK_ROOT)/$(PDK)
+scl_io_PATH = "/home/dhanvanti/scl_pdk_v2/iolib/cio250/verilog/tsl18cio250/zero"
 VERILOG_PATH = ../
 RTL_PATH = $(VERILOG_PATH)/gl
 BEHAVIOURAL_MODELS = ../GLS
@@ -40,7 +41,7 @@ hex:  ${PATTERN:=.hex}
 vcd:  ${PATTERN:=.vcd}
 
 %.vvp: %_tb.v %.hex
-    iverilog -Ttyp $(SIM_DEFINES) -DGL -I $(VERILOG_PATH)/synthesis/output -I $(BEHAVIOURAL_MODELS) -I $(PDK_PATH)  \
+	iverilog -Ttyp $(SIM_DEFINES) -DGL -I $(VERILOG_PATH)/synthesis/output -I $(BEHAVIOURAL_MODELS) -I $(scl_io_PATH) \
 	-I $(PDK_PATH) -I $(VERILOG_PATH) -I $(RTL_PATH)   \
 	$< -o $@ 
 

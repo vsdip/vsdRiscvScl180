@@ -20,23 +20,12 @@
 
 `ifdef SIM
 
-    //`include "defines.v"
+     `include "defines.v"
     //`include "user_defines.v"
     //`include "pads.v"
 
-    /* NOTE: Need to pass the PDK root directory to iverilog with option -I */
-
-	/*`include "sky130/sky130_fd_io.v"
-	`include "sky130/sky130_ef_io.v"
-	
-	`include "sky130/sky130_fd_sc_hd/primitives.v"
-	`include "sky130/sky130_fd_sc_hd/sky130_fd_sc_hd.v"
-	*/
-	`include "sky130/sky130_fd_sc_hvl/primitives.v"
-	`include "sky130/sky130_fd_sc_hvl/sky130_fd_sc_hvl.v"
-	
-	//`include "sky130/sky130_sram_2kbyte_1rw1r_32x512_8.v"
-
+    	
+	`default_nettype wire
     `ifdef GL
 	`include "tsl18fs120_scl.v"
         `include "pc3d21.v"

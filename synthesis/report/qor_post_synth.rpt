@@ -1,14 +1,11 @@
-Warning: The trip points for the library named sky130_fd_sc_hvl__ff_n40C_4v40 differ from those in the library named tsl18fs120_scl_ff. (TIM-164)
 Information: Updating design information... (UID-85)
 Information: Timing loop detected. (OPT-150)
-	chip_core/housekeeping/U383/I chip_core/housekeeping/U383/Z chip_core/housekeeping/U302/I chip_core/housekeeping/U302/Z chip_core/housekeeping/wbbd_sck_reg/CP chip_core/housekeeping/wbbd_sck_reg/QN chip_core/housekeeping/U3792/I chip_core/housekeeping/U3792/ZN chip_core/housekeeping/U3787/I0 chip_core/housekeeping/U3787/Z chip_core/housekeeping/U381/I chip_core/housekeeping/U381/Z chip_core/housekeeping/U321/I chip_core/housekeeping/U321/Z chip_core/housekeeping/U300/I chip_core/housekeeping/U300/Z chip_core/housekeeping/U272/I chip_core/housekeeping/U272/Z chip_core/housekeeping/pll_ena_reg/CP chip_core/housekeeping/pll_ena_reg/Q chip_core/pll/U29/A2 chip_core/pll/U29/ZN chip_core/pll/ringosc/iss/U4/I chip_core/pll/ringosc/iss/U4/ZN chip_core/pll/ringosc/iss/reseten0/EN chip_core/pll/ringosc/iss/reseten0/ZN chip_core/pll/pll_control/tval_reg[6]/CP chip_core/pll/pll_control/tval_reg[6]/Q chip_core/pll/pll_control/U143/I chip_core/pll/pll_control/U143/ZN chip_core/pll/pll_control/U30/A chip_core/pll/pll_control/U30/ZN chip_core/pll/pll_control/U29/A chip_core/pll/pll_control/U29/ZN chip_core/pll/pll_control/U28/A chip_core/pll/pll_control/U28/ZN chip_core/pll/pll_control/U27/A1 chip_core/pll/pll_control/U27/ZN chip_core/pll/pll_control/U26/I chip_core/pll/pll_control/U26/ZN chip_core/pll/pll_control/U25/A chip_core/pll/pll_control/U25/ZN chip_core/pll/pll_control/U22/A1 chip_core/pll/pll_control/U22/ZN chip_core/pll/pll_control/U21/A chip_core/pll/pll_control/U21/ZN chip_core/pll/U7/I0 chip_core/pll/U7/Z chip_core/pll/ringosc/dstage[5].id/U1/I chip_core/pll/ringosc/dstage[5].id/U1/ZN chip_core/pll/ringosc/dstage[5].id/delayen0/EN chip_core/pll/ringosc/dstage[5].id/delayen0/ZN chip_core/clock_ctrl/ext_clk_syncd_reg/CP chip_core/clock_ctrl/ext_clk_syncd_reg/Q chip_core/clock_ctrl/U9/I1 chip_core/clock_ctrl/U9/Z chip_core/clock_ctrl/U8/I0 chip_core/clock_ctrl/U8/Z chip_core/U1/I chip_core/U1/Z 
+	chip_core/housekeeping/U379/I chip_core/housekeeping/U379/Z chip_core/housekeeping/U286/I chip_core/housekeeping/U286/Z chip_core/housekeeping/wbbd_sck_reg/CP chip_core/housekeeping/wbbd_sck_reg/QN chip_core/housekeeping/U3798/I chip_core/housekeeping/U3798/ZN chip_core/housekeeping/U3794/I0 chip_core/housekeeping/U3794/Z chip_core/housekeeping/U400/I chip_core/housekeeping/U400/Z chip_core/housekeeping/U390/I chip_core/housekeeping/U390/Z chip_core/housekeeping/U318/I chip_core/housekeeping/U318/Z chip_core/housekeeping/U278/I chip_core/housekeeping/U278/Z chip_core/housekeeping/pll_ena_reg/CP chip_core/housekeeping/pll_ena_reg/Q chip_core/pll/U29/A2 chip_core/pll/U29/ZN chip_core/pll/ringosc/iss/U4/I chip_core/pll/ringosc/iss/U4/ZN chip_core/pll/ringosc/iss/reseten0/EN chip_core/pll/ringosc/iss/reseten0/ZN chip_core/pll/pll_control/tval_reg[6]/CP chip_core/pll/pll_control/tval_reg[6]/Q chip_core/pll/pll_control/U142/I chip_core/pll/pll_control/U142/ZN chip_core/pll/pll_control/U31/A chip_core/pll/pll_control/U31/ZN chip_core/pll/pll_control/U30/A chip_core/pll/pll_control/U30/ZN chip_core/pll/pll_control/U29/A chip_core/pll/pll_control/U29/ZN chip_core/pll/pll_control/U28/A1 chip_core/pll/pll_control/U28/ZN chip_core/pll/pll_control/U27/I chip_core/pll/pll_control/U27/ZN chip_core/pll/pll_control/U26/A chip_core/pll/pll_control/U26/ZN chip_core/pll/pll_control/U23/A1 chip_core/pll/pll_control/U23/ZN chip_core/pll/pll_control/U22/A chip_core/pll/pll_control/U22/ZN chip_core/pll/U7/I0 chip_core/pll/U7/Z chip_core/pll/ringosc/dstage[5].id/U1/I chip_core/pll/ringosc/dstage[5].id/U1/ZN chip_core/pll/ringosc/dstage[5].id/delayen0/EN chip_core/pll/ringosc/dstage[5].id/delayen0/ZN chip_core/clock_ctrl/ext_clk_syncd_reg/CP chip_core/clock_ctrl/ext_clk_syncd_reg/Q chip_core/clock_ctrl/U9/I1 chip_core/clock_ctrl/U9/Z chip_core/clock_ctrl/U8/I0 chip_core/clock_ctrl/U8/Z chip_core/U1/I chip_core/U1/Z 
 Information: Timing loop detected. (OPT-150)
-	chip_core/housekeeping/U379/I chip_core/housekeeping/U379/Z chip_core/housekeeping/U317/I chip_core/housekeeping/U317/Z chip_core/housekeeping/U292/I chip_core/housekeeping/U292/Z chip_core/housekeeping/U269/I chip_core/housekeeping/U269/Z chip_core/housekeeping/gpio_configure_reg[3][3]/CP chip_core/housekeeping/gpio_configure_reg[3][3]/QN chip_core/housekeeping/U3794/I chip_core/housekeeping/U3794/ZN chip_core/housekeeping/U3793/A1 chip_core/housekeeping/U3793/ZN chip_core/housekeeping/U3789/A1 chip_core/housekeeping/U3789/ZN chip_core/housekeeping/U3788/A2 chip_core/housekeeping/U3788/ZN chip_core/housekeeping/U3787/I1 chip_core/housekeeping/U3787/Z 
+	chip_core/housekeeping/U319/I chip_core/housekeeping/U319/Z chip_core/housekeeping/U283/I chip_core/housekeeping/U283/Z chip_core/housekeeping/gpio_configure_reg[3][3]/CP chip_core/housekeeping/gpio_configure_reg[3][3]/Q chip_core/housekeeping/U3799/A1 chip_core/housekeeping/U3799/ZN chip_core/housekeeping/U3796/A2 chip_core/housekeeping/U3796/ZN chip_core/housekeeping/U3795/A2 chip_core/housekeeping/U3795/ZN chip_core/housekeeping/U3794/I1 chip_core/housekeeping/U3794/Z chip_core/housekeeping/U400/I chip_core/housekeeping/U400/Z chip_core/housekeeping/U390/I chip_core/housekeeping/U390/Z 
 Warning: Disabling timing arc between pins 'CP' and 'Q' on cell 'chip_core/pll/pll_control/tval_reg[6]'
          to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'CP' and 'QN' on cell 'chip_core/housekeeping/gpio_configure_reg[3][3]'
-         to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'CP' and 'Q' on cell 'chip_core/housekeeping/hkspi_disable_reg'
+Warning: Disabling timing arc between pins 'CP' and 'Q' on cell 'chip_core/housekeeping/gpio_configure_reg[3][3]'
          to break a timing loop. (OPT-314)
 Warning: Disabling timing arc between pins 'CP' and 'Q' on cell 'chip_core/pll/pll_control/tval_reg[4]'
          to break a timing loop. (OPT-314)
@@ -30,11 +27,13 @@ Warning: Disabling timing arc between pins 'CP' and 'QN' on cell 'chip_core/cloc
          to break a timing loop. (OPT-314)
 Warning: Disabling timing arc between pins 'CP' and 'Q' on cell 'chip_core/clock_ctrl/divider/syncN_reg[2]'
          to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'CP' and 'QN' on cell 'chip_core/clock_ctrl/divider/syncN_reg[0]'
+Warning: Disabling timing arc between pins 'CP' and 'Q' on cell 'chip_core/clock_ctrl/divider/syncN_reg[0]'
          to break a timing loop. (OPT-314)
 Warning: Disabling timing arc between pins 'CP' and 'QN' on cell 'chip_core/housekeeping/wbbd_sck_reg'
          to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'CP' and 'Q' on cell 'chip_core/housekeeping/wbbd_busy_reg'
+Warning: Disabling timing arc between pins 'CP' and 'Q' on cell 'chip_core/housekeeping/hkspi_disable_reg'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'CP' and 'QN' on cell 'chip_core/housekeeping/wbbd_busy_reg'
          to break a timing loop. (OPT-314)
 Warning: Disabling timing arc between pins 'CP' and 'Q' on cell 'chip_core/clock_ctrl/divider2/syncN_reg[1]'
          to break a timing loop. (OPT-314)
@@ -42,21 +41,21 @@ Warning: Disabling timing arc between pins 'CP' and 'QN' on cell 'chip_core/cloc
          to break a timing loop. (OPT-314)
 Warning: Disabling timing arc between pins 'CP' and 'Q' on cell 'chip_core/clock_ctrl/divider2/syncN_reg[2]'
          to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'CP' and 'QN' on cell 'chip_core/clock_ctrl/divider2/syncN_reg[0]'
+Warning: Disabling timing arc between pins 'CP' and 'Q' on cell 'chip_core/clock_ctrl/divider2/syncN_reg[0]'
          to break a timing loop. (OPT-314)
  
 ****************************************
 Report : qor
 Design : vsdcaravel
 Version: T-2022.03-SP5-6
-Date   : Tue Feb 11 08:45:37 2025
+Date   : Tue Feb 11 18:32:59 2025
 ****************************************
 
 
   Timing Path Group (none)
   -----------------------------------
   Levels of Logic:              59.00
-  Critical Path Length:          8.77
+  Critical Path Length:          8.76
   Critical Path Slack:         uninit
   Critical Path Clk Period:       n/a
   Total Negative Slack:          0.00
@@ -72,9 +71,9 @@ Date   : Tue Feb 11 08:45:37 2025
   Hierarchical Cell Count:       1496
   Hierarchical Port Count:      14566
   Leaf Cell Count:              26351
-  Buf/Inv Cell Count:            3804
-  Buf Cell Count:                 546
-  Inv Cell Count:                3263
+  Buf/Inv Cell Count:            3806
+  Buf Cell Count:                 543
+  Inv Cell Count:                3266
   CT Buf/Inv Cell Count:            0
   Combinational Cell Count:     19527
   Sequential Cell Count:         6824
@@ -84,22 +83,22 @@ Date   : Tue Feb 11 08:45:37 2025
 
   Area
   -----------------------------------
-  Combinational Area:   357810.260164
+  Combinational Area:   357559.430147
   Noncombinational Area:
-                        484155.701725
-  Buf/Inv Area:          33266.569905
-  Total Buffer Area:          8317.94
-  Total Inverter Area:       25277.93
+                        484149.441730
+  Buf/Inv Area:          33122.289901
+  Total Buffer Area:          8173.68
+  Total Inverter Area:       25146.19
   Macro/Black Box Area:   5282.080254
-  Net Area:              36476.127832
+  Net Area:              36202.034977
   -----------------------------------
-  Cell Area:            847248.042143
-  Design Area:          883724.169975
+  Cell Area:            846990.952131
+  Design Area:          883192.987108
 
 
   Design Rules
   -----------------------------------
-  Total Number of Nets:         31181
+  Total Number of Nets:         31195
   Nets With Violations:             0
   Max Trans Violations:             0
   Max Cap Violations:               0
@@ -110,12 +109,12 @@ Date   : Tue Feb 11 08:45:37 2025
 
   Compile CPU Statistics
   -----------------------------------------
-  Resource Sharing:                   74.60
-  Logic Optimization:                 66.56
-  Mapping Optimization:               51.34
+  Resource Sharing:                   73.81
+  Logic Optimization:                 68.76
+  Mapping Optimization:               50.73
   -----------------------------------------
-  Overall Compile Time:              212.04
-  Overall Compile Wall Clock Time:   213.44
+  Overall Compile Time:              213.69
+  Overall Compile Wall Clock Time:   215.23
 
   --------------------------------------------------------------------
 

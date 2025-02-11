@@ -26,16 +26,7 @@
 
     /* NOTE: Need to pass the PDK root directory to iverilog with option -I */
 
-	/*`include "sky130/sky130_fd_io.v"
-	`include "sky130/sky130_ef_io.v"
-	
-	`include "sky130/sky130_fd_sc_hd/primitives.v"
-	`include "sky130/sky130_fd_sc_hd/sky130_fd_sc_hd.v"
-	*/
-	`include "sky130/sky130_fd_sc_hvl/primitives.v"
-	`include "sky130/sky130_fd_sc_hvl/sky130_fd_sc_hvl.v"
-	
-	//`include "sky130/sky130_sram_2kbyte_1rw1r_32x512_8.v"
+		
 
     `ifdef GL
 	`include "gl/digital_pll.v"
@@ -65,6 +56,10 @@
        // `include "pc3d01.v"
         //`include "pt3b02.v"
     `else
+        `include "pc3b03ed_wrapper.v"
+        `include "pc3d21.v"
+        `include "pc3d01_wrapper.v"
+	`include "pt3b02_wrapper.v"
 	`include "digital_pll.v"
 	`include "digital_pll_controller.v"
 	`include "ring_osc2x13.v"
@@ -88,11 +83,7 @@
 	`include "spare_logic_block.v"
 	`include "mgmt_core_wrapper.v"
 	`include "vsdcaravel.v"
-        //`include "pc3b03ed_wrapper.v"
-        //`include "pc3d21.v"
-        //`include "pc3d01.v"
-        //`include "pt3b02.v"
-        //`include ""
+                //`include ""
     `endif
 
     `include "dummy_por.v"

@@ -3,7 +3,7 @@
 Report : area
 Design : vsdcaravel
 Version: T-2022.03-SP5-6
-Date   : Tue Feb 11 08:45:37 2025
+Date   : Tue Feb 11 18:32:59 2025
 ****************************************
 
 Library(s) Used:
@@ -12,20 +12,20 @@ Library(s) Used:
     tsl18cio250_typ (File: /home/dhanvanti/scl_pdk_v2/iolib/cio250/synopsys/2002.05/models/tsl18cio250_typ.db)
 
 Number of ports:                        14629
-Number of nets:                         39986
+Number of nets:                         40000
 Number of cells:                        32118
 Number of combinational cells:          19409
 Number of sequential cells:              6922
 Number of macros/black boxes:              20
-Number of buf/inv:                       3804
+Number of buf/inv:                       3806
 Number of references:                       2
 
-Combinational area:             357810.260164
-Buf/Inv area:                    33266.569905
-Noncombinational area:          484155.701725
+Combinational area:             357559.430147
+Buf/Inv area:                    33122.289901
+Noncombinational area:          484149.441730
 Macro/Black Box area:             5282.080254
-Net Interconnect area:           36476.127832
+Net Interconnect area:           36202.034977
 
-Total cell area:                847248.042143
-Total area:                     883724.169975
+Total cell area:                846990.952131
+Total area:                     883192.987108
 1

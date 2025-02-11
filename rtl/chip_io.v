@@ -1,7 +1,4 @@
-`include "../scl180/pc3d01_wrapper.v"
-`include "pc3d21.v"
-`include "../scl180/pt3b02_wrapper.v"
-`include "../scl180/pc3b03ed_wrapper.v"
+
 // SPDX-FileCopyrightText: 2020 Efabless Corporation
 //
 // Licensed under the Apache License, Version 2.0 (the "License");

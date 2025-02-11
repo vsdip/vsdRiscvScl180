@@ -16,6 +16,7 @@
 
 # removing pdk path as everything has been included in one whole directory for this example.
 # PDK_PATH = $(PDK_ROOT)/$(PDK)
+scl_io_PATH = "/home/dhanvanti/scl_pdk_v2/iolib/cio250/verilog/tsl18cio250/zero"
 VERILOG_PATH = ../../
 RTL_PATH = $(VERILOG_PATH)/rtl
 BEHAVIOURAL_MODELS = ../ 
@@ -45,7 +46,7 @@ vcd:  ${PATTERN:=.vcd}
 
 %.vvp: %_tb.v %.hex
 	iverilog -Ttyp $(SIM_DEFINES) -I $(BEHAVIOURAL_MODELS) \
-	 -I $(RTL_PATH) -I $(scl_io_wrapper_PATH)   \
+	 -I $(RTL_PATH) -I $(scl_io_wrapper_PATH) -I $(scl_io_PATH)  \
 	$< -o $@ 
  
 	
@@ -54,16 +55,16 @@ vcd:  ${PATTERN:=.vcd}
 %.vcd: %.vvp
 	vvp $<
 
-%.elf: %.c $(FIRMWARE_PATH)/sections.lds $(FIRMWARE_PATH)/start.s
-	${GCC_PATH}/${GCC_PREFIX}-gcc -march=$(RISCV_TYPE) -mabi=ilp32 -Wl,-Bstatic,-T,$(FIRMWARE_PATH)/sections.lds,--strip-debug -ffreestanding -nostdlib -o $@ $(FIRMWARE_PATH)/start.s $<
+#%.elf: %.c $(FIRMWARE_PATH)/sections.lds $(FIRMWARE_PATH)/start.s
+#	${GCC_PATH}/${GCC_PREFIX}-gcc -march=$(RISCV_TYPE) -mabi=ilp32 -Wl,-Bstatic,-T,$(FIRMWARE_PATH)/sections.lds,--strip-debug -ffreestanding -nostdlib -o $@ $(FIRMWARE_PATH)/start.s $<
 
-%.hex: %.elf
-	${GCC_PATH}/${GCC_PREFIX}-objcopy -O verilog $< $@ 
+#%.hex: %.elf
+#	${GCC_PATH}/${GCC_PREFIX}-objcopy -O verilog $< $@ 
 	# to fix flash base address
-	sed -i 's/@10000000/@00000000/g' $@
+#	sed -i 's/@10000000/@00000000/g' $@
 
-%.bin: %.elf
-	${GCC_PATH}/${GCC_PREFIX}-objcopy -O binary $< /dev/stdout | tail -c +1048577 > $@
+#%.bin: %.elf
+#	${GCC_PATH}/${GCC_PREFIX}-objcopy -O binary $< /dev/stdout | tail -c +1048577 > $@
 
 check-env:
 #ifndef PDK_ROOT
@@ -82,7 +83,7 @@ endif
 # ---- Clean ----
 
 clean:
-	#rm -f *.elf *.hex *.bin *.vcd *.log
+	rm -f *.vcd *.log *.vvp
 
-.PHONY: clean hex vvp vcd
+.PHONY: clean vvp vcd
 

@@ -1,6 +1,6 @@
 #@ # 
 #@ # Running dc_shell Version T-2022.03-SP5-6 for linux64 -- Sep 20, 2023
-#@ # Date:   Tue Feb 11 08:41:40 2025
+#@ # Date:   Tue Feb 11 18:29:04 2025
 #@ # Run by: dhanvanti@sfalvsd
 #@ 
 
@@ -8628,37 +8628,34 @@ source /usr/synopsys/syn/T-2022.03-SP5-6/admin/setup/.synopsys_dc.setup
 
 #@ # -- End source /usr/synopsys/syn/T-2022.03-SP5-6/admin/setup/.synopsys_dc.setup
 
-source -echo -verbose /home/dhanvanti/vsd_sfal/SFAL_SOCDESIGN/caravel_scl180/synthesis/work_folder/../synth.tcl
-#@ # -- Starting source /home/dhanvanti/vsd_sfal/SFAL_SOCDESIGN/caravel_scl180/synthesis/work_folder/../synth.tcl
+source -echo -verbose /home/dhanvanti/vsd_sfal/SFAL_SOCDESIGN/vsdcaravel_scl180/synthesis/work_folder/../synth.tcl
+#@ # -- Starting source /home/dhanvanti/vsd_sfal/SFAL_SOCDESIGN/vsdcaravel_scl180/synthesis/work_folder/../synth.tcl
 
-#@ #read_db "/home/dhanvanti/vsd_sfal/SFAL_SOCDESIGN/caravel_scl180/lib/sky130_fd_sc_hvl__ff_n40C_4v40.db"
-#@ 
 #@ read_db "/home/dhanvanti/scl_pdk_v2/iolib/cio250/synopsys/2002.05/models/tsl18cio250_typ.db"
 #@ 
 #@ read_db "/home/dhanvanti/scl_pdk_v2/stdlib/fs120/liberty/lib_flow_ff/tsl18fs120_scl_ff.db"
 #@ 
 #@ 
-#@ set target_library "/home/dhanvanti/scl_pdk_v2/stdlib/fs120/liberty/lib_flow_ff/tsl18fs120_scl_ff.db /home/dhanvanti/vsd_sfal/SFAL_SOCDESIGN/caravel_scl180/lib/sky130_fd_sc_hvl__ff_n40C_4v40.db /home/dhanvanti/scl_pdk_v2/iolib/cio250/synopsys/2002.05/models/tsl18cio250_typ.db"
+#@ set target_library "/home/dhanvanti/scl_pdk_v2/stdlib/fs120/liberty/lib_flow_ff/tsl18fs120_scl_ff.db /home/dhanvanti/scl_pdk_v2/iolib/cio250/synopsys/2002.05/models/tsl18cio250_typ.db"
 #@ 
-#@ set link_library {"* /home/dhanvanti/scl_pdk_v2/stdlib/fs120/liberty/lib_flow_ff/tsl18fs120_scl_ff.db /home/dhanvanti/vsd_sfal/SFAL_SOCDESIGN/caravel_scl180/lib/sky130_fd_sc_hvl__ff_n40C_4v40.db /home/dhanvanti/scl_pdk_v2/iolib/cio250/synopsys/2002.05/models/tsl18cio250_typ.db"}
+#@ set link_library {"* /home/dhanvanti/scl_pdk_v2/stdlib/fs120/liberty/lib_flow_ff/tsl18fs120_scl_ff.db /home/dhanvanti/scl_pdk_v2/iolib/cio250/synopsys/2002.05/models/tsl18cio250_typ.db"}
 #@ 
-#@ #set_app_var target_library $target_library
-#@ #set_app_var link_library $link_library
+#@ set_app_var target_library $target_library
+#@ set_app_var link_library $link_library
 #@ 
-#@ foreach_in_collection cell [get_lib_cells sky130_fd_sc_hvl__ff_n40C_4v40/*] {
-#@ 	if { $cell != "sky130_fd_sc_hvl__schmittbuf_1" } {
-#@ 		set_dont_use $cell
-#@ 	}
-#@ }
 #@ 
-#@ set root_dir "/home/dhanvanti/vsd_sfal/SFAL_SOCDESIGN/caravel_scl180"
+#@ 
+#@ set root_dir "/home/dhanvanti/vsd_sfal/SFAL_SOCDESIGN/vsdcaravel_scl180"
+#@ set io_lib "/home/dhanvanti/scl_pdk_v2/iolib/cio250/verilog/tsl18cio250/zero"
 #@ set verilog_files  "$root_dir/rtl"
 #@ set top_module "vsdcaravel" ;
-#@ set output_file "$root_dir/synthesis/output/caravel_synthesis.v"
+#@ set output_file "$root_dir/synthesis/output/vsdcaravel_synthesis.v"
 #@ set report_dir "$root_dir/synthesis/report"
 #@ read_file $verilog_files/defines.v
+#@ read_file $io_lib -autoread -define USE_POWER_PINS -format verilog
+#@ read_file $verilog_files/scl180_wrapper -autoread -define USE_POWER_PINS -format verilog
 #@ read_file $verilog_files -autoread -define USE_POWER_PINS -format verilog -top $top_module
-#@ read_sdc "$root_dir/synthesis/caravel.sdc"
+#@ read_sdc "$root_dir/synthesis/vsdcaravel.sdc"
 #@ update_timing
 #@ 
 #@ elaborate $top_module
@@ -8682,5 +8679,5 @@ source -echo -verbose /home/dhanvanti/vsd_sfal/SFAL_SOCDESIGN/caravel_scl180/syn
 #@ 
 #@ 
 #@ 
-#@ # -- End source /home/dhanvanti/vsd_sfal/SFAL_SOCDESIGN/caravel_scl180/synthesis/work_folder/../synth.tcl
+#@ # -- End source /home/dhanvanti/vsd_sfal/SFAL_SOCDESIGN/vsdcaravel_scl180/synthesis/work_folder/../synth.tcl
 
