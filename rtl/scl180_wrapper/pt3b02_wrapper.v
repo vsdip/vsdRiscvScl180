@@ -1,4 +1,4 @@
-// SPDX-FileCopyrightText: 2025 Efabless Corporation/VSD
+// SPDX-FileCopyrightText: 2025 VSD
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -18,7 +18,7 @@
 /* a project for the VSD/Semiconductor Laboratory SCL180	           */
 /* fabrication process 			                                       */
 /*                                                          	       */
-/* Copyright 2025 efabless, Inc. /VSD                           	   */
+/* Copyright 2025 VSD                           	                   */
 /* Originally written by Bharat                                        */
 /* 			    	                                                   */
 /* Edited by Dhanvanti Bhavsar and Kunal Ghosh on (11/02/2025)		   */
