@@ -292,12 +292,13 @@ Timing Path Group (none)
 ```
 ## Issues
 - Housekeeping module has not synthesized successfully and was blackboxed for GLS purpose. 
-- Por, RAM modules are blackboxed and will be replaced with macros in future
+- POR, RAM modules are blackboxed and will be replaced with SCL POR and memories in future
 
 ## Future Roadmap
 - Resolve houskeeping issues
-- Generate more testbench simulations based on VexRiscv internal function
-- Complete PD flow for tapeout
+- Generate more testbench simulations based on vsdcaravel internal function
+- Include SCL POR and RAM
+- Complete ICC2 flow for tapeout
 
 ## Refrences
 - https://github.com/efabless/caravel/
