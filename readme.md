@@ -1,4 +1,4 @@
-# RISC-V SoC Implementation using Synopsys and SCL180 PDK
+# RISC-V Reference SoC Implementation using Synopsys and SCL180 PDK
 
 ## Overview
 This repository contains a reference RISC-V SoC implementation with I/O interfaces from SCL (Semiconductor Laboratory), designed specifically for participants under the SMDP (Special Manpower Development Program). The RISC-V SoC implementation IP provided here serves as a reference design and is absolutely FREE to use for tapeout purposes with the SCL180 process. Access to this repository is restricted to individuals who have access to Synopsys tools and have signed a Non-Disclosure Agreement (NDA) with Semiconductor Laboratory (SCL) to use their 180nm Process Design Kits (PDKs).
