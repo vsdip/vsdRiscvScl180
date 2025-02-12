@@ -14,9 +14,8 @@ This repository contains a reference RISC-V SoC implementation with I/O interfac
   **caravel** is from efabless+SKY130+opensource , while **vsdcaravel** is from vsd+SCL180+Synopsys
 
 ## Features
-- **Synthesis and Gate-Level Simulation (GLS)** of Caravel SoC
+- **Synthesis and Gate-Level Simulation (GLS)** of VSDCaravel SoC, derived from original Caravel by efabless
 - **Utilization of SCL180 PDK** for ASIC design
-- **Reference for Efabless's harness VexRiscV**
 - **Reproducible and Open-source Workflow**
 
 ## Repository Structure
