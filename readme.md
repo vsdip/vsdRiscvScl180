@@ -39,7 +39,7 @@ Before using this repository, ensure you have the following dependencies install
 - **SCL180 PDK** ( SCL180 PDK)
 - **RiscV32-uknown-elf.gcc** (building functional simulation files)
 - **Caravel User Project Framework** from Efabless
-- **Synopsis tools** for synthesis
+- **Synopsys EDA tool Suite** for Synthesis
 - **Verilog Simulator** (e.g., Icarus Verilog)
 - **GTKWAVE** (used for visualizing testbench waves)
 
