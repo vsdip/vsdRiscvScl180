@@ -19,10 +19,10 @@
 scl_io_PATH = "/home/dhanvanti/scl_pdk_v2/iolib/cio250/verilog/tsl18cio250/zero"
 VERILOG_PATH = ../
 RTL_PATH = $(VERILOG_PATH)/gl
-BEHAVIOURAL_MODELS = ../GLS
+BEHAVIOURAL_MODELS = ../gls
 RISCV_TYPE ?= rv32imc
 PDK_PATH= /home/dhanvanti/scl_pdk_v2/stdlib/fs120/verilog/vcs_sim_model 
-FIRMWARE_PATH = ../GLS
+FIRMWARE_PATH = ../gls
 GCC_PATH?=/home/dhanvanti/Downloads/riscv32/bin
 GCC_PREFIX?=riscv32-unknown-elf
 

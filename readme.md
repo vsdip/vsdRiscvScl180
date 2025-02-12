@@ -3,6 +3,7 @@
 ## Overview
 This repository contains a reference RISC-V SoC implementation with I/O interfaces from SCL (Semiconductor Laboratory), designed specifically for participants under the SMDP (Special Manpower Development Program). The RISC-V SoC implementation IP provided here serves as a reference design and is absolutely FREE to use for tapeout purposes with the SCL180 process. Access to this repository is restricted to individuals who have access to Synopsys tools and have signed a Non-Disclosure Agreement (NDA) with Semiconductor Laboratory (SCL) to use their 180nm Process Design Kits (PDKs).
 
+![image](./images/main.jpg)
 
 - Project by :- Dhanvanti Bhavsar
 - Mentored by :- Mr. Kunal Ghosh (VLSI System Design) and SFAL 
@@ -20,10 +21,10 @@ This repository contains a reference RISC-V SoC implementation with I/O interfac
 
 ## Repository Structure
 ```
-vsdcaravel_scl180/
-├── GLS            # Contains test bench files and synthesized netlists
+VsdRiscvScl180/
 ├── dv             # Contains functional verification files 
 ├── gl             # Contains GLS supports files
+├── gls            # Contains test bench files and synthesized netlists
 ├── rtl            # Contains verilog files        
 ├── synthesis      # Contains synthesis scripts and outputs
    ├──output       # Contain synthesis output
@@ -37,7 +38,6 @@ vsdcaravel_scl180/
 Before using this repository, ensure you have the following dependencies installed:
 
 - **SCL180 PDK** ( SCL180 PDK)
-- **Skywater 130 PDK** (will be replaced in future for por)
 - **RiscV32-uknown-elf.gcc** (building functional simulation files)
 - **Caravel User Project Framework** from Efabless
 - **Synopsis tools** for synthesis
@@ -48,8 +48,8 @@ Before using this repository, ensure you have the following dependencies install
 ### Repo Setup
 1. Clone the repository:
    ```sh 
-   git clone https://github.com/dhanvantibhavsar/SFAL_SOCDESIGN.git
-   cd SFAL_SOCDESIGN
+   git clone https://github.com/vsdip/vsdRiscvScl180.git
+   cd vsdRiscvScl180
    ```
 2. Install required dependencies (ensure dc_shell and SCL180 PDK are properly set up).
 
@@ -92,29 +92,29 @@ dc_shell -f ../synth.tcl
 ```
 This should update the caravel_snthesis.v file in [./synthesis/output](./synthesis/output) folder
 ### GLS Setup
-11. Modify and verify following variables in Makefile at path [./GLS/Makefile](./GLS/Makefile) according to your paths
+11. Modify and verify following variables in Makefile at path [./gls/Makefile](./gls/Makefile) according to your paths
 ```
 SCL PDK Path
 GCC Path
 SCL IO Path
 ```
 
-12. Modify synthesized netlist at path [./synthesis/output/caravel_synthsis.v](./synthesis/output/caravel_synthesis.v) to remove blackboxed modules
+12. Modify synthesized netlist at path [./synthesis/output/vsdcaravel_synthsis.v](./synthesis/output/caravel_synthesis.v) to remove blackboxed modules
    - Remove following modules
    ```
-   simple_por
+   dummy_por
    RAM128
    housekeeping
    ```
    - add following lines at the beginning of the netlist file to import the blackboxed modules from functional rtl
    ```
-   `include "simple_por.v"
+   `include "dummy_por.v"
    `include "RAM128.v
    `include "housekeeping.v"
    ```
 ###  GLS Execution
-13. open a terminal and cd to the location of Makefile i.e. [./GLS](./GLS)
-14. Replace 1'b0 from caravel.v file with vssa.
+13. open a terminal and cd to the location of Makefile i.e. [./gls](./gls)
+14. Replace 1'b0 from vsdcaravel.v file with vssa.
 15. make sure hkspi.vvp file has been deleted from the GLS folder
 16. Run following command to generate vvp file for GLS
    ```

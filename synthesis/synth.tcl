@@ -12,7 +12,7 @@ set_app_var link_library $link_library
 
 
 
-set root_dir "/home/dhanvanti/vsd_sfal/SFAL_SOCDESIGN/vsdcaravel_scl180"
+set root_dir "/home/dhanvanti/vsd_sfal/SFAL_SOCDESIGN/VsdRiscvScl180"
 set io_lib "/home/dhanvanti/scl_pdk_v2/iolib/cio250/verilog/tsl18cio250/zero"
 set verilog_files  "$root_dir/rtl"
 set top_module "vsdcaravel" ;
